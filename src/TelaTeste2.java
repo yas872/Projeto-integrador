@@ -67,7 +67,7 @@ public class TelaTeste2 extends JFrame {
 			JPanel panel_1 = new JPanel();
 			panel_1.setBackground(new Color(243, 255, 255));
 			contentPane.add(panel_1, BorderLayout.CENTER);
-			panel_1.setLayout(new MigLayout("", "[grow][grow][grow]", "[grow][grow][grow][10:n:25,grow][grow][grow][grow]"));
+			panel_1.setLayout(new MigLayout("", "[grow][grow][grow]", "[grow][grow][grow][30:n:30,grow][30:n:30,grow][grow][grow]"));
 			
 			JLabel lblNewLabel_2 = new JLabel("");
 			lblNewLabel_2.setIcon(new ImageIcon(TelaTeste2.class.getResource("/img/arrow_back.png")));
@@ -91,15 +91,15 @@ public class TelaTeste2 extends JFrame {
 			
 			textField = new JTextField();
 			panel_1.add(textField, "cell 1 3,grow");
-			textField.setColumns(50);
+			textField.setColumns(20);
 			
 			JLabel lblNewLabel_7 = new JLabel("");
 			lblNewLabel_7.setIcon(new ImageIcon(TelaTeste2.class.getResource("/img/Digite sua senha_.png")));
 			panel_1.add(lblNewLabel_7, "cell 0 4,alignx right,aligny top");
 			
 			textField_1 = new JTextField();
-			panel_1.add(textField_1, "cell 1 4,growx,aligny top");
-			textField_1.setColumns(50);
+			panel_1.add(textField_1, "cell 1 4,grow");
+			textField_1.setColumns(20);
 			
 			JLabel lblNewLabel_8 = new JLabel("");
 			lblNewLabel_8.setIcon(new ImageIcon(TelaTeste2.class.getResource("/img/Content.png")));

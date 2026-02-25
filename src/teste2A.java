@@ -13,6 +13,9 @@ import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 import javax.swing.ImageIcon;
 import java.awt.Font;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
+import javax.swing.JOptionPane;
  
 
 public class teste2A extends JFrame {
@@ -67,10 +70,22 @@ public class teste2A extends JFrame {
 		panel.add(lblNewLabel_4, "cell 1 1");
 		
 		JLabel lblNewLabel_2 = new JLabel("\r\n");
+		lblNewLabel_2.addMouseListener(new MouseAdapter() {
+			@Override
+			public void mouseClicked(MouseEvent e) {
+				JOptionPane.showMessageDialog(null, "47 99957-2667");
+			}
+		});
 		lblNewLabel_2.setIcon(new ImageIcon(teste2A.class.getResource("/img/contato.png")));
 		panel.add(lblNewLabel_2, "cell 2 1");
 		
 		JLabel lblNewLabel_3 = new JLabel("");
+		lblNewLabel_3.addMouseListener(new MouseAdapter() {
+			@Override
+			public void mouseClicked(MouseEvent e) {
+				
+			}
+		});
 		lblNewLabel_3.setIcon(new ImageIcon(teste2A.class.getResource("/img/entrar.png")));
 		panel.add(lblNewLabel_3, "cell 3 1");
 		

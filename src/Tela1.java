@@ -18,7 +18,7 @@ import java.awt.event.MouseEvent;
 import javax.swing.JOptionPane;
  
 
-public class teste2A extends JFrame {
+public class Tela1 extends JFrame {
 
 	private static final long serialVersionUID = 1L;
 	private JPanel contentPane;
@@ -30,7 +30,7 @@ public class teste2A extends JFrame {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					teste2A frame = new teste2A();
+					Tela1 frame = new Tela1();
 					frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -42,7 +42,7 @@ public class teste2A extends JFrame {
 	/**
 	 * Create the frame.
 	 */
-	public teste2A() {
+	public Tela1() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 1112, 581);
 		contentPane = new JPanel();
@@ -58,15 +58,15 @@ public class teste2A extends JFrame {
 		
 		JLabel lblNewLabel = new JLabel("");
 		lblNewLabel.setBackground(new Color(240, 240, 240));
-		lblNewLabel.setIcon(new ImageIcon(teste2A.class.getResource("/img/alarm.png")));
+		lblNewLabel.setIcon(new ImageIcon(Tela1.class.getResource("/img/alarm.png")));
 		panel.add(lblNewLabel, "flowx,cell 0 1");
 		
 		JLabel label = new JLabel("");
-		label.setIcon(new ImageIcon(teste2A.class.getResource("/routinehacker/ROUTINE HACKER.png")));
+		label.setIcon(new ImageIcon(Tela1.class.getResource("/routinehacker/ROUTINE HACKER.png")));
 		panel.add(label, "cell 0 1");
 		
 		JLabel lblNewLabel_4 = new JLabel("");
-		lblNewLabel_4.setIcon(new ImageIcon(teste2A.class.getResource("/img/Segment 1.png")));
+		lblNewLabel_4.setIcon(new ImageIcon(Tela1.class.getResource("/img/Segment 1.png")));
 		panel.add(lblNewLabel_4, "cell 1 1");
 		
 		JLabel lblNewLabel_2 = new JLabel("\r\n");
@@ -76,7 +76,7 @@ public class teste2A extends JFrame {
 				JOptionPane.showMessageDialog(null, "47 99957-2667");
 			}
 		});
-		lblNewLabel_2.setIcon(new ImageIcon(teste2A.class.getResource("/img/contato.png")));
+		lblNewLabel_2.setIcon(new ImageIcon(Tela1.class.getResource("/img/contato.png")));
 		panel.add(lblNewLabel_2, "cell 2 1");
 		
 		JLabel lblNewLabel_3 = new JLabel("");
@@ -86,7 +86,7 @@ public class teste2A extends JFrame {
 				
 			}
 		});
-		lblNewLabel_3.setIcon(new ImageIcon(teste2A.class.getResource("/img/entrar.png")));
+		lblNewLabel_3.setIcon(new ImageIcon(Tela1.class.getResource("/img/entrar.png")));
 		panel.add(lblNewLabel_3, "cell 3 1");
 		
 		JPanel panel_1 = new JPanel();
@@ -100,15 +100,15 @@ public class teste2A extends JFrame {
 		panel_2.setLayout(new MigLayout("", "[]", "[grow][grow,center][grow][grow]"));
 		
 		JLabel lblNewLabel_5 = new JLabel("");
-		lblNewLabel_5.setIcon(new ImageIcon(teste2A.class.getResource("/img/O que somos_.png")));
+		lblNewLabel_5.setIcon(new ImageIcon(Tela1.class.getResource("/img/O que somos_.png")));
 		panel_2.add(lblNewLabel_5, "cell 0 1,alignx center");
 		
 		JLabel lblNewLabel_6 = new JLabel("");
-		lblNewLabel_6.setIcon(new ImageIcon(teste2A.class.getResource("/img/Somos uma equipe dedicada a promover uma vida digital mais equilibrada e saudável. Inspirados pelos desafios enfrentados por estudantes e profissionais da área de informática como o sedentarismo, o excesso de tempo.png")));
-		panel_2.add(lblNewLabel_6, "cell 0 2");
+		lblNewLabel_6.setIcon(new ImageIcon(Tela1.class.getResource("/img/Somos uma equipe dedicada a promover uma vida digital mais equilibrada e saudável. Inspirados pelos desafios enfrentados por estudantes e profissionais da área de informática como o sedentarismo, o excesso de tempo.png")));
+		panel_2.add(lblNewLabel_6, "flowx,cell 0 2");
 		
 		JLabel lblNewLabel_1 = new JLabel("");
-		lblNewLabel_1.setIcon(new ImageIcon(teste2A.class.getResource("/img/Full-width.png")));
+		lblNewLabel_1.setIcon(new ImageIcon(Tela1.class.getResource("/img/Full-width.png")));
 		panel_1.add(lblNewLabel_1, "cell 1 0");
 		
 		JPanel panel_3 = new JPanel();
@@ -117,27 +117,27 @@ public class teste2A extends JFrame {
 		panel_3.setLayout(new MigLayout("", "[]", "[grow][grow][grow][grow][grow][grow]"));
 		
 		JLabel lblNewLabel_7 = new JLabel("");
-		lblNewLabel_7.setIcon(new ImageIcon(teste2A.class.getResource("/img/Vector.png")));
+		lblNewLabel_7.setIcon(new ImageIcon(Tela1.class.getResource("/img/Vector.png")));
 		panel_3.add(lblNewLabel_7, "cell 0 0,alignx center,aligny center");
 		
 		JLabel lblNewLabel_8 = new JLabel("");
-		lblNewLabel_8.setIcon(new ImageIcon(teste2A.class.getResource("/img/Sem energia ou disposição_ O Rotine Hacker é para quem vive sobrecarregado e quer simplificar o dia..png")));
+		lblNewLabel_8.setIcon(new ImageIcon(Tela1.class.getResource("/img/Sem energia ou disposição_ O Rotine Hacker é para quem vive sobrecarregado e quer simplificar o dia..png")));
 		panel_3.add(lblNewLabel_8, "cell 0 1");
 		
 		JLabel lblNewLabel_9 = new JLabel("");
-		lblNewLabel_9.setIcon(new ImageIcon(teste2A.class.getResource("/img/access_alarm.png")));
+		lblNewLabel_9.setIcon(new ImageIcon(Tela1.class.getResource("/img/access_alarm.png")));
 		panel_3.add(lblNewLabel_9, "cell 0 2,alignx center");
 		
 		JLabel lblNewLabel_10 = new JLabel("");
-		lblNewLabel_10.setIcon(new ImageIcon(teste2A.class.getResource("/img/Sem tempo_  O Rotine Hacker vai te ajudar a colocar tudo em ordem de forma rápida e eficiente. .png")));
+		lblNewLabel_10.setIcon(new ImageIcon(Tela1.class.getResource("/img/Sem tempo_  O Rotine Hacker vai te ajudar a colocar tudo em ordem de forma rápida e eficiente. .png")));
 		panel_3.add(lblNewLabel_10, "cell 0 3");
 		
 		JLabel lblNewLabel_11 = new JLabel("");
-		lblNewLabel_11.setIcon(new ImageIcon(teste2A.class.getResource("/img/Vector (1).png")));
+		lblNewLabel_11.setIcon(new ImageIcon(Tela1.class.getResource("/img/Vector (1).png")));
 		panel_3.add(lblNewLabel_11, "cell 0 4,alignx center");
 		
 		JLabel lblNewLabel_12 = new JLabel("");
-		lblNewLabel_12.setIcon(new ImageIcon(teste2A.class.getResource("/img/Atolado de tarefas_ O Rotine Hacker tem funções que faram suas atividades ficarem rápidas e práticas para serem resolvidas..png")));
+		lblNewLabel_12.setIcon(new ImageIcon(Tela1.class.getResource("/img/Atolado de tarefas_ O Rotine Hacker tem funções que faram suas atividades ficarem rápidas e práticas para serem resolvidas..png")));
 		panel_3.add(lblNewLabel_12, "cell 0 5");
 
 	}

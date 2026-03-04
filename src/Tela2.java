@@ -11,7 +11,7 @@ import javax.swing.JLabel;
 import javax.swing.JTextField;
 import javax.swing.JButton;
 
-public class TelaTeste2 extends JFrame {
+public class Tela2 extends JFrame {
 
 	private static final long serialVersionUID = 1L;
 	private JPanel contentPane;
@@ -25,7 +25,7 @@ public class TelaTeste2 extends JFrame {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					TelaTeste2 frame = new TelaTeste2();
+					Tela2 frame = new Tela2();
 					frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -37,7 +37,7 @@ public class TelaTeste2 extends JFrame {
 	/**
 	 * Create the frame.
 	 */
-	public TelaTeste2() {
+	public Tela2() {
 			setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 			setBounds(100, 100, 1112, 779);
 			contentPane = new JPanel();
@@ -53,15 +53,15 @@ public class TelaTeste2 extends JFrame {
 			
 			JLabel lblNewLabel = new JLabel("");
 			lblNewLabel.setBackground(new Color(240, 240, 240));
-			lblNewLabel.setIcon(new ImageIcon(teste2A.class.getResource("/img/alarm.png")));
+			lblNewLabel.setIcon(new ImageIcon(Tela1.class.getResource("/img/alarm.png")));
 			panel.add(lblNewLabel, "flowx,cell 0 1");
 			
 			JLabel label = new JLabel("");
-			label.setIcon(new ImageIcon(teste2A.class.getResource("/routinehacker/ROUTINE HACKER.png")));
+			label.setIcon(new ImageIcon(Tela2.class.getResource("/routinehacker/ROUTINE HACKER.png")));
 			panel.add(label, "cell 0 1");
 			
 			JLabel lblNewLabel_1 = new JLabel("");
-			lblNewLabel_1.setIcon(new ImageIcon(TelaTeste2.class.getResource("/img/Icon button.png")));
+			lblNewLabel_1.setIcon(new ImageIcon(Tela2.class.getResource("/img/Icon button.png")));
 			panel.add(lblNewLabel_1, "cell 3 1");
 			
 			JPanel panel_1 = new JPanel();
@@ -70,23 +70,23 @@ public class TelaTeste2 extends JFrame {
 			panel_1.setLayout(new MigLayout("", "[grow][grow][grow]", "[grow][grow][grow][30:n:30,grow][30:n:30,grow][grow][grow]"));
 			
 			JLabel lblNewLabel_2 = new JLabel("");
-			lblNewLabel_2.setIcon(new ImageIcon(TelaTeste2.class.getResource("/img/arrow_back.png")));
-			panel_1.add(lblNewLabel_2, "flowx,cell 0 0");
+			lblNewLabel_2.setIcon(new ImageIcon(Tela2.class.getResource("/img/arrow_back.png")));
+			panel_1.add(lblNewLabel_2, "flowx,cell 0 0,alignx left,aligny top");
 			
 			JLabel lblNewLabel_3 = new JLabel("");
-			lblNewLabel_3.setIcon(new ImageIcon(TelaTeste2.class.getResource("/img/Voltar.png")));
-			panel_1.add(lblNewLabel_3, "cell 0 0");
+			lblNewLabel_3.setIcon(new ImageIcon(Tela2.class.getResource("/img/Voltar.png")));
+			panel_1.add(lblNewLabel_3, "cell 0 0,aligny top");
 			
 			JLabel lblNewLabel_4 = new JLabel("");
-			lblNewLabel_4.setIcon(new ImageIcon(TelaTeste2.class.getResource("/img/Generic avatar.png")));
+			lblNewLabel_4.setIcon(new ImageIcon(Tela2.class.getResource("/img/Generic avatar.png")));
 			panel_1.add(lblNewLabel_4, "cell 1 1,alignx center,aligny center");
 			
 			JLabel lblNewLabel_5 = new JLabel("");
-			lblNewLabel_5.setIcon(new ImageIcon(TelaTeste2.class.getResource("/img/Login.png")));
+			lblNewLabel_5.setIcon(new ImageIcon(Tela2.class.getResource("/img/Login.png")));
 			panel_1.add(lblNewLabel_5, "cell 1 2,alignx center,aligny top");
 			
 			JLabel lblNewLabel_6 = new JLabel("");
-			lblNewLabel_6.setIcon(new ImageIcon(TelaTeste2.class.getResource("/img/Matrícula_.png")));
+			lblNewLabel_6.setIcon(new ImageIcon(Tela2.class.getResource("/img/Matrícula_.png")));
 			panel_1.add(lblNewLabel_6, "cell 0 3,alignx right");
 			
 			textField = new JTextField();
@@ -94,15 +94,15 @@ public class TelaTeste2 extends JFrame {
 			textField.setColumns(20);
 			
 			JLabel lblNewLabel_7 = new JLabel("");
-			lblNewLabel_7.setIcon(new ImageIcon(TelaTeste2.class.getResource("/img/Digite sua senha_.png")));
-			panel_1.add(lblNewLabel_7, "cell 0 4,alignx right,aligny top");
+			lblNewLabel_7.setIcon(new ImageIcon(Tela2.class.getResource("/img/Digite sua senha_.png")));
+			panel_1.add(lblNewLabel_7, "cell 0 4,alignx right,aligny center");
 			
 			textField_1 = new JTextField();
 			panel_1.add(textField_1, "cell 1 4,grow");
 			textField_1.setColumns(20);
 			
 			JLabel lblNewLabel_8 = new JLabel("");
-			lblNewLabel_8.setIcon(new ImageIcon(TelaTeste2.class.getResource("/img/Content.png")));
+			lblNewLabel_8.setIcon(new ImageIcon(Tela2.class.getResource("/img/Content.png")));
 			panel_1.add(lblNewLabel_8, "cell 1 5,alignx center,aligny top");
 
 }

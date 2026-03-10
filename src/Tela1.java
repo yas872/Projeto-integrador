@@ -104,7 +104,7 @@ public class Tela1 extends JFrame {
 		panel_2.add(lblNewLabel_5, "cell 0 1,alignx center");
 		
 		JLabel lblNewLabel_6 = new JLabel("");
-		lblNewLabel_6.setIcon(new ImageIcon(Tela1.class.getResource("/img/Somos uma equipe dedicada a promover uma vida digital mais equilibrada e saudável. Inspirados pelos desafios enfrentados por estudantes e profissionais da área de informática como o sedentarismo, o excesso de tempo.png")));
+		lblNewLabel_6.setIcon(new ImageIcon(Tela1.class.getResource("/img/somos_uma_equipe.png")));
 		panel_2.add(lblNewLabel_6, "flowx,cell 0 2");
 		
 		JLabel lblNewLabel_1 = new JLabel("");
@@ -120,25 +120,25 @@ public class Tela1 extends JFrame {
 		lblNewLabel_7.setIcon(new ImageIcon(Tela1.class.getResource("/img/Vector.png")));
 		panel_3.add(lblNewLabel_7, "cell 0 0,alignx center,aligny center");
 		
-		JLabel lblNewLabel_8 = new JLabel("");
-		lblNewLabel_8.setIcon(new ImageIcon(Tela1.class.getResource("/img/Sem energia ou disposição_ O Rotine Hacker é para quem vive sobrecarregado e quer simplificar o dia..png")));
-		panel_3.add(lblNewLabel_8, "cell 0 1");
-		
 		JLabel lblNewLabel_9 = new JLabel("");
 		lblNewLabel_9.setIcon(new ImageIcon(Tela1.class.getResource("/img/access_alarm.png")));
 		panel_3.add(lblNewLabel_9, "cell 0 2,alignx center");
-		
-		JLabel lblNewLabel_10 = new JLabel("");
-		lblNewLabel_10.setIcon(new ImageIcon(Tela1.class.getResource("/img/Sem tempo_  O Rotine Hacker vai te ajudar a colocar tudo em ordem de forma rápida e eficiente. .png")));
-		panel_3.add(lblNewLabel_10, "cell 0 3");
 		
 		JLabel lblNewLabel_11 = new JLabel("");
 		lblNewLabel_11.setIcon(new ImageIcon(Tela1.class.getResource("/img/Vector (1).png")));
 		panel_3.add(lblNewLabel_11, "cell 0 4,alignx center");
 		
-		JLabel lblNewLabel_12 = new JLabel("");
-		lblNewLabel_12.setIcon(new ImageIcon(Tela1.class.getResource("/img/Atolado de tarefas_ O Rotine Hacker tem funções que faram suas atividades ficarem rápidas e práticas para serem resolvidas..png")));
-		panel_3.add(lblNewLabel_12, "cell 0 5");
+		JLabel lblNewLabel_14 = new JLabel("");
+		lblNewLabel_14.setIcon(new ImageIcon(Tela1.class.getResource("/img/Sem energia.png")));
+		panel_3.add(lblNewLabel_14, "cell 0 1");
+		
+		JLabel lblNewLabel_15 = new JLabel("");
+		lblNewLabel_15.setIcon(new ImageIcon(Tela1.class.getResource("/img/Sem tempo.png")));
+		panel_3.add(lblNewLabel_15, "cell 0 3");
+		
+		JLabel lblNewLabel_16 = new JLabel("");
+		lblNewLabel_16.setIcon(new ImageIcon(Tela1.class.getResource("/img/Atolado de tarefas.png")));
+		panel_3.add(lblNewLabel_16, "cell 0 5");
 
 	}
 

@@ -9,6 +9,7 @@ import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 
 import net.miginfocom.swing.MigLayout;
+import javax.swing.JCheckBox;
 
 public class Tela4 extends JFrame {
 

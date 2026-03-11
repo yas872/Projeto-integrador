@@ -51,7 +51,7 @@ public class Tela4 extends JFrame {
 		JPanel panel_1 = new JPanel();
 		panel_1.setBackground(new Color(243, 255, 255));
 		contentPane.add(panel_1, BorderLayout.CENTER);
-		panel_1.setLayout(new MigLayout("", "[grow][grow][grow]", "[grow][grow][grow][grow][grow]"));
+		panel_1.setLayout(new MigLayout("", "[grow][grow][grow]", "[120:n:120,grow][28:n:28,grow][48:n:48,grow][grow]"));
 		
 		JLabel lblNewLabel_2 = new JLabel("");
 		lblNewLabel_2.setIcon(new ImageIcon(Tela4.class.getResource("/img/atvdbutton.png")));
@@ -68,6 +68,18 @@ public class Tela4 extends JFrame {
 		JLabel lblNewLabel_8 = new JLabel("");
 		lblNewLabel_8.setIcon(new ImageIcon(Tela4.class.getResource("/img/Suas aulas.png")));
 		panel_1.add(lblNewLabel_8, "cell 2 1,alignx center,aligny top");
+		
+		JLabel lblNewLabel_3 = new JLabel("");
+		lblNewLabel_3.setIcon(new ImageIcon(Tela4.class.getResource("/img/Assistive chip.png")));
+		panel_1.add(lblNewLabel_3, "cell 0 2,alignx center,aligny center");
+		
+		JLabel lblNewLabel_4 = new JLabel("");
+		lblNewLabel_4.setIcon(new ImageIcon(Tela4.class.getResource("/img/Assistive chip.png")));
+		panel_1.add(lblNewLabel_4, "cell 1 2,alignx center");
+		
+		JLabel lblNewLabel_5 = new JLabel("");
+		lblNewLabel_5.setIcon(new ImageIcon(Tela4.class.getResource("/img/Assistive chip.png")));
+		panel_1.add(lblNewLabel_5, "cell 2 2,alignx center");
 		
 		JLabel lblNewLabel_1 = new JLabel("");
 		lblNewLabel_1.setIcon(new ImageIcon(Tela4.class.getResource("/img/Generic avatar.png")));

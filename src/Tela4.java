@@ -10,11 +10,15 @@ import javax.swing.border.EmptyBorder;
 
 import net.miginfocom.swing.MigLayout;
 import javax.swing.JCheckBox;
+import javax.swing.JTextField;
 
 public class Tela4 extends JFrame {
 
 	private static final long serialVersionUID = 1L;
 	private JPanel contentPane;
+	private JTextField textField;
+	private JTextField textField_1;
+	private JTextField textField_2;
 
 	/**
 	 * Launch the application.
@@ -70,17 +74,17 @@ public class Tela4 extends JFrame {
 		lblNewLabel_8.setIcon(new ImageIcon(Tela4.class.getResource("/img/Suas aulas.png")));
 		panel_1.add(lblNewLabel_8, "cell 2 1,alignx center,aligny top");
 		
-		JLabel lblNewLabel_3 = new JLabel("");
-		lblNewLabel_3.setIcon(new ImageIcon(Tela4.class.getResource("/img/Assistive chip.png")));
-		panel_1.add(lblNewLabel_3, "cell 0 2,alignx center,aligny center");
+		textField = new JTextField();
+		panel_1.add(textField, "cell 0 2,growx");
+		textField.setColumns(10);
 		
-		JLabel lblNewLabel_4 = new JLabel("");
-		lblNewLabel_4.setIcon(new ImageIcon(Tela4.class.getResource("/img/Assistive chip.png")));
-		panel_1.add(lblNewLabel_4, "cell 1 2,alignx center");
+		textField_1 = new JTextField();
+		panel_1.add(textField_1, "cell 1 2,growx");
+		textField_1.setColumns(10);
 		
-		JLabel lblNewLabel_5 = new JLabel("");
-		lblNewLabel_5.setIcon(new ImageIcon(Tela4.class.getResource("/img/Assistive chip.png")));
-		panel_1.add(lblNewLabel_5, "cell 2 2,alignx center");
+		textField_2 = new JTextField();
+		panel_1.add(textField_2, "cell 2 2,growx");
+		textField_2.setColumns(10);
 		
 		JLabel lblNewLabel_1 = new JLabel("");
 		lblNewLabel_1.setIcon(new ImageIcon(Tela4.class.getResource("/img/Generic avatar.png")));

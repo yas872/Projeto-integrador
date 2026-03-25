@@ -65,7 +65,7 @@ public class Tela5 extends JFrame {
 		panel.add(lblNewLabel, "flowx,cell 0 1");
 		
 		JLabel label = new JLabel("");
-		label.setIcon(new ImageIcon(Tela1.class.getResource("/routinehacker/ROUTINE HACKER.png")));
+		label.setIcon(new ImageIcon(Tela1.class.getResource("/img/ROUTINE HACKER.png")));
 		panel.add(label, "cell 0 1");
 		
 		JLabel lblNewLabel_1 = new JLabel("");
@@ -86,10 +86,10 @@ public class Tela5 extends JFrame {
 		
 		JLabel lblNewLabel_5 = new JLabel("");
 		lblNewLabel_5.setIcon(new ImageIcon(Tela5.class.getResource("/img/Telefone_.png")));
-		panel_1.add(lblNewLabel_5, "cell 3 1,alignx right,aligny bottom");
+		panel_1.add(lblNewLabel_5, "cell 3 1,alignx right,aligny center");
 		
 		textField = new JTextField();
-		panel_1.add(textField, "cell 4 1,growx,aligny bottom");
+		panel_1.add(textField, "cell 4 1,growx,aligny center");
 		textField.setColumns(10);
 		
 		JLabel lblNewLabel_13 = new JLabel("");

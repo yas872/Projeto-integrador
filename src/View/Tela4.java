@@ -12,6 +12,10 @@ import javax.swing.border.EmptyBorder;
 import net.miginfocom.swing.MigLayout;
 import javax.swing.JCheckBox;
 import javax.swing.JTextField;
+import java.awt.FlowLayout;
+import java.awt.CardLayout;
+import javax.swing.BoxLayout;
+import java.awt.GridLayout;
 
 public class Tela4 extends JFrame {
 
@@ -86,6 +90,36 @@ public class Tela4 extends JFrame {
 		textField_2 = new JTextField();
 		panel_1.add(textField_2, "cell 2 2,growx");
 		textField_2.setColumns(10);
+		
+		JPanel panel_2 = new JPanel();
+		panel_1.add(panel_2, "cell 0 3,growx,aligny top");
+		panel_2.setLayout(new BoxLayout(panel_2, BoxLayout.Y_AXIS));
+		
+		JPanel panel_3 = new JPanel();
+		panel_2.add(panel_3);
+		panel_3.setLayout(new GridLayout(0, 3, 0, 0));
+		
+		JLabel lblNewLabel_3 = new JLabel("New label");
+		panel_3.add(lblNewLabel_3);
+		
+		JLabel lblNewLabel_5 = new JLabel("New label");
+		panel_3.add(lblNewLabel_5);
+		
+		JCheckBox chckbxNewCheckBox = new JCheckBox("New check box");
+		panel_3.add(chckbxNewCheckBox);
+		
+		JPanel panel_4 = new JPanel();
+		panel_2.add(panel_4);
+		panel_4.setLayout(new GridLayout(0, 3, 0, 0));
+		
+		JLabel lblNewLabel_4 = new JLabel("New label");
+		panel_4.add(lblNewLabel_4);
+		
+		JLabel lblNewLabel_9 = new JLabel("New label");
+		panel_4.add(lblNewLabel_9);
+		
+		JCheckBox chckbxNewCheckBox_1 = new JCheckBox("New check box");
+		panel_4.add(chckbxNewCheckBox_1);
 		
 		JLabel lblNewLabel_1 = new JLabel("");
 		lblNewLabel_1.setIcon(new ImageIcon(Tela4.class.getResource("/img/Generic avatar.png")));
